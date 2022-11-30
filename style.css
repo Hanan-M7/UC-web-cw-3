@@ -1,0 +1,25 @@
+.container{
+    width: 500px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+    margin: 1px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid darkkhaki;
+    animation: slide-in 2s;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateX(-100%);}
+    to {
+      transform: translateX(0%);}
+  }
+
+.box:hover{
+    background-color: turquoise;
+}
