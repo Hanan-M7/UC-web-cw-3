@@ -15,6 +15,7 @@
     transition: all 0.5s ease-in-out;
     border: 2px solid darkkhaki;
     animation: slide-in 2s;
+    box-shadow: 5px 10px 18px grey;
 }
 
 @keyframes slide-in {
